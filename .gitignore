@@ -1,0 +1,10 @@
+# Ignorar entornos virtuales
+venv/
+sign_detector_python/Lib/
+
+# Ignorar archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
