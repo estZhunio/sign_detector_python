@@ -1,5 +1,6 @@
 # Ignorar entornos virtuales
 venv/
+.venv/
 sign_detector_python/Lib/
 
 # Ignorar archivos temporales

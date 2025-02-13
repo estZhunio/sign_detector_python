@@ -66,7 +66,7 @@ class SignProcessor:
     def __init__(self):
         self.last_process_time = time.time()
         self.processing_interval = 0.1  # 100ms entre procesamientos
-        self.confidence_threshold = 0.97  # Umbral de confianza
+        self.confidence_threshold = 0.93  # Umbral de confianza
 
     async def process_frame(self, frame_data: bytes) -> dict:
         # Control de tasa de procesamiento
